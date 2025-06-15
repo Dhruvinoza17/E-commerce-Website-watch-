@@ -1,0 +1,11 @@
+# Ignore config file with secret key
+admin/inc/config.php
+
+# Ignore system files
+*.log
+*.DS_Store
+vendor/
+node_modules/
+
+# Ignore environment files
+.env

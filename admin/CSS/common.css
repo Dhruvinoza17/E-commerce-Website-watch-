@@ -1,0 +1,113 @@
+* {
+    font-family: "Poppins", serif;
+  }
+
+  .h {
+    font-family: "Kalam", serif;
+  }
+
+  .h-font {
+    font-family: "Old Standard TT", serif;
+  }
+
+  .r {
+    color: #C23737;
+  }
+
+  /* Default icon color */
+  a i {
+    color: #343a40; /* Bootstrap's 'text-dark' equivalent */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+
+  /* Hover effect for icons */
+  .a a:hover {
+    color: #C23737; /* Change icon color on hover */
+  }
+
+  /* Default button appearance */
+  .btn.hov {
+    border-color: #343a40; /* Default border color */
+    color: #343a40;        /* Default text color */
+    background-color: transparent; /* No background color */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+
+  /* Button hover effect */
+  .btn.hov:hover {
+    border-color: #C23737; /* Change border color on hover */
+    color: #C23737;        /* Change text color on hover */
+    background-color: transparent !important; /* Prevent dark background */
+  }
+
+  /* Input type number arrow remove code for all browser */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Alert CSS */
+  .custom-alert {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+  }
+
+  /* Dashboard CSS */
+  #dashboard-menu {
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+  }
+
+  /* CSS for side panel style in medium devices */
+  @media screen and (max-width:991px) {
+    #dashboard-menu {
+      height: auto;
+      width: 100%;
+    } 
+    /* Not to get main content behind the side panel of dashboard in medium devices */
+    #main-content {
+      margin-top: 60px;
+    }
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #424141;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Accordion styling */
+.acc .accordion-button {
+  color: white;
+}
+.acc .accordion-button:not(.collapsed) {
+  background-color: #0d6efd; /* Highlight when open */
+  color: white;
+}
+.acc .accordion-button::after {
+  filter: invert(1);
+}
+.acc .accordion-body {
+  padding: 5px 15px;
+}
+.acc .nav-link {
+  padding-left: 30px; /* Indent sub-items */
+}

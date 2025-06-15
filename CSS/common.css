@@ -1,0 +1,247 @@
+  * {
+    font-family: "Poppins", serif;
+  }
+
+  .h {
+    font-family: "Kalam", serif;
+  }
+
+  .h-font {
+    font-family: "Old Standard TT", serif;
+  }
+
+  .r {
+    color: #C23737;
+  }
+
+  /* Default icon color */
+  a i {
+    color: #343a40; /* Bootstrap's 'text-dark' equivalent */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+
+  /* Hover effect for icons */
+  .a a:hover {
+    color: #C23737; /* Change icon color on hover */
+  }
+
+  /* Default button appearance */
+  .btn.hov {
+    border-color: #343a40; /* Default border color */
+    color: #343a40;        /* Default text color */
+    background-color: transparent; /* No background color */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+
+  /* Button hover effect */
+  .btn.hov:hover {
+    border-color: #C23737; /* Change border color on hover */
+    color: #C23737;        /* Change text color on hover */
+    background-color: transparent !important; /* Prevent dark background */
+  }
+
+  /* Input type number arrow remove code for all browser */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Hover effect for nav-link */
+  .nv:hover {
+    color: #C23737; /* Color changes to #C23737 on hover */
+  }
+
+  /* Footer CSS */
+  .logo3:hover {
+    text-decoration: underline;
+  }
+
+  .logo1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  .logo2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    color: #000000;
+  }
+
+  .logo2:hover {
+    color: #ffffff;
+  }
+
+  .i1:hover {
+    color: #316FF6;
+  }
+  .i2:hover {
+    background: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    }
+    
+
+  .i3:hover {
+    color: #1df296;
+  }
+
+  .i4:hover {
+    color:  #65bae9;
+  } 
+
+  .i5:hover {
+    color: #CD201F;
+  }
+
+  /* Footer Pages CSS */
+  .nav-item.ue a {
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+    color: inherit;
+    display: inline-block; /* Ensure underline matches text width */
+  }
+
+  .nav-item.ue a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px; /* Thickness of the underline */
+    background-color: #C23737; /* Underline color */
+    transition: width 0.3s ease; /* Smooth animation */
+  }
+
+  .nav-item.ue a:hover::after {
+    width: 100%; /* Expand underline to text width */
+  }
+
+  /* Anchor Tag Hover */
+  a.ue {
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+    color: inherit;
+    display: inline-block; /* Ensure underline matches text width */
+  }
+
+  a.ue::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px; /* Thickness of the underline */
+    background-color: #C23737; /* Underline color */
+    transition: width 0.3s ease; /* Smooth animation */
+  }
+
+  a.ue:hover::after {
+    width: 100%; /* Expand underline to text width */
+  }
+
+  .cr {
+    color: #C23737;
+  }
+
+  .cr:hover {
+    color: white;
+    background-color: #C23737;
+  }
+
+  .h-line {
+    width: 250px;
+    margin: 0 auto;
+    height: 1.7px;
+  }
+
+  /* Alert CSS */
+  .custom-alert {
+    position: fixed;
+    top: 120px;
+    right: 25px;
+    z-index: 111;
+  }
+
+  /* Fix Text Position */
+  .carousel-caption-custom {
+    position: relative;  /* Keeps text inside slide content */
+    left: 0;
+    right: 0;
+    bottom: auto; /* Prevents default Bootstrap caption behavior */
+    text-align: left; /* Align text to the left */
+    padding: 10px 20px; /* Adds spacing */
+    background: rgba(255, 255, 255, 0.8); /* Optional: Light background for better readability */
+    width: 90%; /* Adjust width to avoid nav arrows */
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.section-gap {
+  padding: 50px 0;
+}
+
+.watch-features .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-left,
+.features-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.single-feature {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.single-feature span {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.single-feature h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.single-feature p {
+  font-size: 14px;
+  color: #666;
+}
+
+.features-center img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #424141;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
