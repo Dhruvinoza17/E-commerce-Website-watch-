@@ -1,5 +1,6 @@
 # Ignore config file with secret key
 admin/inc/config.php
+/config.php
 
 # Ignore system files
 *.log
